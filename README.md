@@ -35,9 +35,26 @@ https://aistudio.google.com/
 
 ### Step 2: Set the API Key (Ubuntu)
 
-Set the API key as an environment variable:
-***export GEMINI_API_KEY="your_api_key_here" ***
+To make this permanent, add it to your shell configuration file:
+```bash
+nano ~/.bashrc
+```
 
+Append the following line:
+```bash
+export GEMINI_API_KEY="your_api_key_here"
+```
+
+Reload your shell:
+```bash
+source ~/.bashrc
+```
+Step 3: Verify
+
+You can verify that the variable is set by running:
+```bash
+echo $GEMINI_API_KEY
+```
 
 ## What is Altus?
 
