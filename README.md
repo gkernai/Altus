@@ -56,6 +56,20 @@ Altus takes a different approach:
 > Note: Altus is under active development. Features and APIs may change.
 
 ---
+## Installing Altus as a Command (Ubuntu)
+
+To use `altus` as a global command in your terminal, you need to make the script executable
+and add it to your `PATH`.
+
+### Option 1: User-level installation (recommended)
+
+This method does not require `sudo` and only affects your user.
+
+```bash
+chmod +x altus.py
+mkdir -p ~/.local/bin
+ln -s $(pwd)/altus.py ~/.local/bin/altus
+
 
 ## Usage Guide
 
