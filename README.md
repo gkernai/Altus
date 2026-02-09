@@ -6,6 +6,20 @@ Instead of pulling developers into chat interfaces, Altus lives where real work 
 
 ---
 
+
+## AI Provider
+
+Altus currently uses Google AI Studio (Gemini models) as its backend provider.
+
+Altus acts as a thin client:
+- It does not bundle or distribute any models
+- All requests are made using the user's own API key
+- Model usage is fully subject to Google AI Studio's terms of service
+
+The provider layer is intentionally kept minimal to allow future support
+for additional AI backends.
+
+
 ## What is Altus?
 
 Altus is a CLI-based tool that connects large language models with your local development environment.
@@ -43,7 +57,7 @@ Altus takes a different approach:
 
 ---
 
-## Usage Guide (Ubuntu)
+## Usage Guide
 
 Altus is designed to be used directly from the terminal with a simple and explicit syntax.
 
