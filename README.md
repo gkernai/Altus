@@ -19,6 +19,25 @@ Altus acts as a thin client:
 The provider layer is intentionally kept minimal to allow future support
 for additional AI backends.
 
+## API Key Setup (Required)
+
+Altus requires an API key to communicate with the AI backend.
+Without a valid API key, the tool will not run.
+
+### Step 1: Get an API Key
+
+Altus currently uses **Google AI Studio (Gemini models)**.
+
+You can obtain an API key from:
+https://aistudio.google.com/
+
+---
+
+### Step 2: Set the API Key (Ubuntu)
+
+Set the API key as an environment variable:
+***export GEMINI_API_KEY="your_api_key_here" ***
+
 
 ## What is Altus?
 
