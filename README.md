@@ -77,7 +77,6 @@ Altus is designed to be used directly from the terminal with a simple and explic
 
 ### Basic Usage
 
-```bash
 altus <file> "<prompt>"
 
 altus main.py "refactor this code to be more readable"
