@@ -66,21 +66,6 @@ reduce friction between thinking, writing, and running code.
 
 ---
 
-## Why Altus?
-
-Most AI coding tools:
-- break focus by switching contexts
-- hide logic behind opaque UIs
-- are hard to customize or extend
-
-Altus takes a different approach:
-
-- CLI-first, minimal interface
-- Designed for iterative development
-- Hackable and extensible by design
-- Built with Unix philosophy in mind
-
----
 
 ## Features
 
